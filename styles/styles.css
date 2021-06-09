@@ -39,7 +39,8 @@ h1 {
   font-size: 100px;
   font-family: 'Amaranth', sans-serif;
   margin-left: 80px;
-  color: white; }
+  color: #d1a89d;
+  word-spacing: normal; }
 
 footer {
   display: flex;
@@ -62,7 +63,7 @@ footer {
   padding: 0; }
 
 .alto {
-  height: 100vh;
+  height: 150px;
   background-color: black; }
 
 .background--black {
@@ -112,3 +113,17 @@ footer {
 
 .facha:hover {
   filter: none; }
+
+/* Prueba 3 Sol Menu hamburguesa*/
+.navbar-toggler {
+  background-color: white; }
+
+body {
+  background-color: black; }
+
+.principal {
+  font-size: 250px;
+  word-spacing: 0%; }
+
+.portfolio {
+  list-style-type: none; }
