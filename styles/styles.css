@@ -126,4 +126,34 @@ body {
   word-spacing: 0%; }
 
 .portfolio {
-  list-style-type: none; }
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px; }
+
+.portfolio a {
+  text-decoration: none;
+  color: #ffff; }
+
+.portfolio a:hover {
+  color: #767676; }
+
+.portfolio h2 {
+  padding: 35px; }
+
+.sol-la-mas-linda {
+  display: flex;
+  margin-bottom: 40px; }
+
+.sol-la-mas-linda h2 {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.sol-la-mas-linda img {
+  height: 400px;
+  margin-left: 20px; }
+
+.sol-la-mas-linda-dos {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  margin-right: 20px; }
