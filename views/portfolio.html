@@ -15,7 +15,6 @@
 </head>
 
 <body>
-  <section class="background--black">
     <header class="container-fluid d-flex justify-content-center">
 
       <nav class="navbar navbar-expand-lg navbar-light centrado">
@@ -68,7 +67,6 @@
           </div>
         </nav>
   </header>
-    </section>
 
     <section>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -140,5 +138,21 @@
     <script src="https://kit.fontawesome.com/b2b5ebf5ab.js" crossorigin="anonymous"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+
+	  	let scrollpos = window.scrollY
+		const header = document.querySelector("header")
+		const header_height = header.offsetHeight
+
+		const add_class_on_scroll = () => header.classList.add("fade-in")
+		const remove_class_on_scroll = () => header.classList.remove("fade-in")
+
+		window.addEventListener('scroll', function() { 
+			scrollpos = window.scrollY;
+
+			if (scrollpos >= header_height) { add_class_on_scroll() }
+			else { remove_class_on_scroll() }
+		})
+    </script>
 </body>
 </html>

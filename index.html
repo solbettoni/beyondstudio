@@ -18,8 +18,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  <section class="alto">
-    
+   
     <header class="container-fluid d-flex justify-content-center">
 
         <nav class="navbar navbar-expand-lg navbar-light centrado transparent" id="menu">
@@ -72,7 +71,6 @@
             </div>
           </nav>
     </header>
-  </section>
 
   <section class="fondo">  
 
@@ -118,20 +116,20 @@
 
     <script>
 
-      $(window).scroll(function () {            
-      var scroll = $(window).scrollTop();
+	  	let scrollpos = window.scrollY
+		const header = document.querySelector("header")
+		const header_height = header.offsetHeight
 
-           if (scroll > 100) {             
+		const add_class_on_scroll = () => header.classList.add("fade-in")
+		const remove_class_on_scroll = () => header.classList.remove("fade-in")
 
-          $("#menu").addClass("navChange");
-          $("#menu").removeClass("transparent");
-        } 	
-  else {
-          $("#menu").removeClass("navChange");
-          $("#menu").addClass("transparent");
-      }
-  });
-</script>
+		window.addEventListener('scroll', function() { 
+			scrollpos = window.scrollY;
+
+			if (scrollpos >= header_height) { add_class_on_scroll() }
+			else { remove_class_on_scroll() }
+		})
+    </script>
 
 </body>
 </html>
