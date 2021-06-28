@@ -19,8 +19,9 @@ header img {
 
 nav .nav-link {
   color: white !important;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400; }
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px; }
 
 .socialMedia ul {
   display: flex;
@@ -43,6 +44,13 @@ h1 {
   color: #d1a89d;
   word-spacing: normal;
   font-family: 'Philosopher', sans-serif; }
+
+.fondo h1 {
+  line-height: 230px; }
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px; }
 
 footer {
   display: flex;
@@ -83,7 +91,6 @@ footer {
   font-size: 12px;
   margin: 0; }
 
-/*Prueba 1*/
 .about--me {
   display: flex; }
 
@@ -98,7 +105,10 @@ footer {
   display: flex;
   justify-content: center; }
 
-/* Prueba 2*/
+.unicaSec {
+  margin: 0 auto;
+  color: white; }
+
 footer {
   padding-bottom: 20px; }
 
@@ -180,6 +190,9 @@ body {
 .facha {
   width: 100%;
   max-width: 500px; }
+
+form {
+  margin: 0 auto; }
 
 @media (max-width: 990px) {
   .about--me-1 {
