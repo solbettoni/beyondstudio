@@ -68,6 +68,10 @@ h2 {
     
 }
 
+.unicaSec h2 { 
+text-align: center;
+}
+
 footer  {
     display: flex;
     flex-direction: column;
@@ -113,6 +117,7 @@ footer  {
     width: 40%;
     font-size: 12px;
     margin: 0;
+    justify-content: right;
 }
 
 
@@ -167,6 +172,11 @@ footer {
 
 .facha:hover {
     filter: none;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Prueba 3 Sol Menu hamburguesa*/

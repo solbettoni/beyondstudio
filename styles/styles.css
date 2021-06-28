@@ -52,6 +52,9 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px; }
 
+.unicaSec h2 {
+  text-align: center; }
+
 footer {
   display: flex;
   flex-direction: column;
@@ -89,7 +92,8 @@ footer {
 .text__copy, .author {
   width: 40%;
   font-size: 12px;
-  margin: 0; }
+  margin: 0;
+  justify-content: right; }
 
 .about--me {
   display: flex; }
@@ -133,6 +137,10 @@ footer {
 
 .facha:hover {
   filter: none; }
+
+form {
+  margin: 0 auto;
+  text-align: center; }
 
 /* Prueba 3 Sol Menu hamburguesa*/
 .navbar-toggler {
