@@ -52,6 +52,7 @@ h1 {
     margin-left: 80px;
     color: rgb(209, 168, 157);
     word-spacing: normal;
+    font-family: 'Philosopher', sans-serif;  
     
 }
 
@@ -213,7 +214,6 @@ background-color: black;
         margin-right: 20px;
     }
 
-
     .navChange {
         background-color: blue;
     }
@@ -286,3 +286,30 @@ background-color: black;
             align-items: center;
         }
       }
+
+      .editorial1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    }
+
+    .editorial1 img {
+        width: 600px;
+
+        }
+
+    .editorial2 {
+        display: flex;
+        justify-content: space-around
+        }
+
+    .editorial2 img {
+        width: 600px;
+            
+        }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        text-align: justify;
+    }

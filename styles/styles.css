@@ -41,7 +41,8 @@ h1 {
   font-size: 100px;
   margin-left: 80px;
   color: #d1a89d;
-  word-spacing: normal; }
+  word-spacing: normal;
+  font-family: 'Philosopher', sans-serif; }
 
 footer {
   display: flex;
@@ -226,3 +227,23 @@ body {
   .portfolio {
     flex-direction: column;
     align-items: center; } }
+
+.editorial1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+
+.editorial1 img {
+  width: 600px; }
+
+.editorial2 {
+  display: flex;
+  justify-content: space-around; }
+
+.editorial2 img {
+  width: 600px; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: justify; }
