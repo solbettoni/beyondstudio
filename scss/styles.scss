@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+@font-face {
+    font-family: "Myanmar-MN";
+    src: url(../fonts/Myanmar-MN.ttc);
+  }
+
 
 header {
     background-color: transparent;
@@ -13,18 +18,8 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background: black;
-    z-index: 9999;
 }
 
-.fade-in{
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    will-change: transform;
-    -webkit-transition: .3s cubic-bezier(.47,0,.745,.715);
-    transition: .3s cubic-bezier(.47,0,.745,.715);
-    background: #252525;
-}
 header img {
     margin: 0 50px;
 }
@@ -57,7 +52,7 @@ nav .nav-link {
 
 h1 { 
     font-size: 100px;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Myanmar-MN';
     margin-left: 80px;
     color: rgb(209, 168, 157);
     word-spacing: normal;
@@ -86,6 +81,11 @@ footer  {
     color: black;
     margin: 5px 5px;
     padding: 0;
+}
+
+.alto {
+    height: 150px;
+    background-color: rgb(0, 0, 0);
 }
 
 .background--black {
@@ -209,4 +209,9 @@ background-color: black;
     .sol-la-mas-linda-dos{
         border-top: 2px solid hsla(0,0%,100%,.2);
         margin-right: 20px;
+    }
+
+
+    .navChange {
+        background-color: blue;
     }
