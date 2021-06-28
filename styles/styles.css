@@ -3,18 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
-@font-face {
-  font-family: "Myanmar-MN";
-  src: url(../fonts/Myanmar-MN.ttc); }
-
 header {
   background-color: transparent;
   display: flex;
+  justify-content: center;
   color: white;
   align-items: center;
-  justify-content: space-between;
   position: sticky;
-  top: 0; }
+  top: 0;
+  background: black;
+  z-index: 9999; }
 
 header img {
   margin: 0 50px; }
@@ -41,7 +39,6 @@ nav .nav-link {
 
 h1 {
   font-size: 100px;
-  font-family: 'Myanmar-MN';
   margin-left: 80px;
   color: #d1a89d;
   word-spacing: normal; }
@@ -105,7 +102,15 @@ footer {
   padding-bottom: 20px; }
 
 .sobreMi {
-  display: flex; }
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+
+.about--me-2 {
+  width: calc(70% - 500px); }
+
+.about--me-2 p {
+  padding-left: 20px; }
 
 .especial {
   color: black;
@@ -164,3 +169,60 @@ body {
 
 .navChange {
   background-color: blue; }
+
+.about--me {
+  width: 100%; }
+
+.about--me-1 {
+  width: 500px; }
+
+.facha {
+  width: 100%;
+  max-width: 500px; }
+
+@media (max-width: 990px) {
+  .about--me-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .sobre-mi {
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    margin-bottom: 20px; }
+  header {
+    display: flex;
+    justify-content: flex-start; }
+  header img {
+    display: none; }
+  .principal {
+    display: flex;
+    font-size: 65px;
+    margin: 0;
+    justify-content: center; }
+  .navbar-collapse {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+  header ul {
+    width: 100%; }
+  .socialMedia ul {
+    margin: 0; }
+  .sobreMi {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .about--me-2 {
+    width: 100%; }
+  .about--me-2 p {
+    padding: 0 10px;
+    text-align: center; }
+  .portfolio {
+    flex-direction: column;
+    align-items: center; } }
