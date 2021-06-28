@@ -15,61 +15,56 @@
 </head>
 
 <body>
-  <section class="background--black">
-    <header class="container-fluid">
-
-      <nav class="navbar navbar-expand-lg navbar-light centrado">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./aboutme.html">SOBRE MI</a>
-                </li>                  
-                <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html"><img src="../images/Untitled-1ddd.png" alt="logo"></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./servicios.html">SERVICIOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
-                </li>
-                <li class="nav-item socialMedia">
-                  <ul class="redes">
-                    <li>
-                      <a href="https://www.instagram.com/sol_bettoni/"target="_blank"><i class="fab fa-instagram"></i> </a>
-                    </li>
-        
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=5491134214180&text=%C2%A1Buenos%20d%C3%ADas%20Sweet%20Take%20Away!%20Soy"target="_blank"> <i class="fab fa-whatsapp"></i> </a>
-                    </li>
-        
-                    <li>
-                      <a href="https://www.linkedin.com/in/sol-bettoni-b20546102/"target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
-                    </li>
-        
-                    <li>
-                      <a href="https://www.behance.net/solbettoni"target="_blank"> <i class="fab fa-behance"></i> </a>
-                    </li>
-                  </ul>
-              </li>
-
-
-              </ul>
-            </div>
-          </div>
-        </nav>
-  </header>
-    </section>
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light centrado transparent"id="menu">
+		  <div class="container-fluid">
+			<button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="../views/aboutme.html">SOBRE MI</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="../views/portfolio.html">PORTFOLIO</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html"><img src="./images/Untitled-1ddd.png" alt="logo"/></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="../views/servicios.html">SERVICIOS</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="../views/contacto.html">CONTACTO</a>
+				</li>
+				<li class="nav-item socialMedia">
+				  <ul class="redes">
+					<li>
+					  <a href="https://www.instagram.com/sol_bettoni/"target="_blank"><i class="fab fa-instagram"></i> </a>
+					</li>
+		
+					<li>
+					  <a href="https://api.whatsapp.com/send?phone=5491134214180&text=%C2%A1Buenos%20d%C3%ADas%20Sweet%20Take%20Away!%20Soy"target="_blank"> <i class="fab fa-whatsapp"></i> </a>
+					</li>
+		
+					<li>
+					  <a href="https://www.linkedin.com/in/sol-bettoni-b20546102/"target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+					</li>
+		
+					<li>
+					  <a href="https://www.behance.net/solbettoni"target="_blank"> <i class="fab fa-behance"></i> </a>
+					</li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	  </header>
 
     <section class="container">
         <article class="row">
@@ -84,37 +79,23 @@
     
                 <label for="NuestroNombre"> Nombre: </label>
                 <input type="text" name="NuestroNombre">
-    
-                <br><br>
                 <label for="NuestroApellido"> Apellido: </label>
                 <input type="text" name="NuestroApellido">
-    
-                <br><br>
                 <label for="Mail"> Mail: </label>
                 <input type="text" name="Mail">
-    
-                <br><br>
                 <label for="Consulta"> Consulta: </label>
                 <input type="text" name="Consulta">
-    
                  <!--Desplegable-->
-                <br><br>
                 <select name="Sexo" id="">
     
                     <option value="M">Masculino</option>
                     <option value="F">Femenino</option>
-                    <option value="C">Crack</option>
-                    <option value="P">Piola</option>
     
                 </select>
-    
-                <br><br>
-
-    
                  <!--botones de reset y submit-->
     
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
+                <input class='botonIn' type="reset" value="Borrar">
+                <input class='botonIn' type="submit" value="Enviar">
 
                 <br> <br> 
     
@@ -157,5 +138,10 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/b2b5ebf5ab.js" crossorigin="anonymous"></script>
+	<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>

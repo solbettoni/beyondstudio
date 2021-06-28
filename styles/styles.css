@@ -19,7 +19,7 @@ header img {
 
 nav .nav-link {
   color: white !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   letter-spacing: 2px; }
 
@@ -43,13 +43,13 @@ h1 {
   margin-left: 80px;
   color: #d1a89d;
   word-spacing: normal;
-  font-family: 'Philosopher', sans-serif; }
+  font-family: "Philosopher", sans-serif; }
 
 .fondo h1 {
   line-height: 230px; }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px; }
 
 .unicaSec h2 {
@@ -86,14 +86,20 @@ footer {
 .copyright {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center; }
 
-.text__copy, .author {
-  width: 40%;
+.text__copy,
+.author {
   font-size: 12px;
   margin: 0;
   justify-content: right; }
+
+.text__copy {
+  margin-right: 20px; }
+
+.author {
+  margin-left: 20px; }
 
 .about--me {
   display: flex; }
@@ -129,13 +135,14 @@ footer {
 
 .especial {
   color: #d1a89d;
-  margin-left: 10%;
-  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-family: "Philosopher", sans-serif;
   align-items: center; }
 
 .facha {
   filter: grayscale(100%);
-  transition: all .5s; }
+  transition: all 0.5s; }
 
 .facha:hover {
   filter: none; }
@@ -205,6 +212,66 @@ form {
   margin: 0 auto;
   text-align: center; }
 
+.editorial1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+
+.editorial1 img {
+  width: 600px; }
+
+.editorial2 {
+  display: flex;
+  justify-content: space-around; }
+
+.editorial2 img {
+  width: 600px; }
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: justify; }
+
+.zoom:hover {
+  transform: scale(1.08);
+  transition-duration: 1s; }
+
+.unicaSec form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  flex-direction: column; }
+
+.unicaSec form input,
+.unicaSec form select {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.botonIn {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  display: inline-block;
+  color: #fff;
+  background: #7f8c8d;
+  padding: 15px 30px;
+  white-space: nowrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #e67e22;
+  border: 0; }
+
+.botonIn:hover {
+  background: #d35400; }
+
 @media (max-width: 990px) {
   .about--me-1 {
     width: 100%;
@@ -250,28 +317,14 @@ form {
     text-align: center; }
   .portfolio {
     flex-direction: column;
-    align-items: center; } }
-
-.editorial1 {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px; }
-
-.editorial1 img {
-  width: 600px; }
-
-.editorial2 {
-  display: flex;
-  justify-content: space-around; }
-
-.editorial2 img {
-  width: 600px; }
-
-p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  text-align: justify; }
-
-.zoom:hover {
-  transform: scale(1.08);
-  transition-duration: 1s; }
+    align-items: center; }
+  .especial {
+    font-size: 60px; }
+  .fondo h1 {
+    line-height: 100px; }
+  .copyright {
+    flex-direction: column; }
+  .text__copy {
+    margin-right: 0; }
+  .author {
+    margin-left: 0; } }
