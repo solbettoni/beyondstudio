@@ -266,11 +266,11 @@ p {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background:  #d1a89d;
+  background: #e67e22;
   border: 0; }
 
 .botonIn:hover {
-  background:  #d1a89d; }
+  background: #d35400; }
 
 @media (max-width: 990px) {
   .about--me-1 {
