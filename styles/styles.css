@@ -192,7 +192,8 @@ body {
   max-width: 500px; }
 
 form {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 @media (max-width: 990px) {
   .about--me-1 {
