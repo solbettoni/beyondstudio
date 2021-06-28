@@ -247,3 +247,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   text-align: justify; }
+
+.zoom:hover {
+  transform: scale(1.08);
+  transition-duration: 1s; }
