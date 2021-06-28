@@ -128,8 +128,10 @@ footer {
   padding-left: 20px; }
 
 .especial {
-  color: black;
-  margin-left: 10%; }
+  color: #d1a89d;
+  margin-left: 10%;
+  font-family: 'Philosopher', sans-serif;
+  align-items: center; }
 
 .facha {
   filter: grayscale(100%);
