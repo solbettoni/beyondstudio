@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-//   font-family: 'Philosopher', sans-serif;
-//   font-family: 'Poppins', sans-serif;
 header {
   background-color: transparent;
   display: flex;
@@ -398,4 +396,25 @@ p {
 	  .author {
 		margin-left: 0;
 	  }
+    .portfolio h2 {
+      padding: 10px;
+    }
+    .sol-la-mas-linda {
+      flex-direction: column;
+    }
+    .sol-la-mas-linda img {
+      margin: 0;
+    }
+    .sol-la-mas-linda img {
+      width: 100%;
+      height: auto;
+    }
+    .editorial1, .editorial2{
+      flex-direction: column;
+      margin: 0;
+    }
+    .editorial1 img, .editorial2 img {
+      width: 100%;
+      margin-bottom: ;
+    }
   }
