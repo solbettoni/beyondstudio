@@ -317,12 +317,12 @@ p {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #e67e22;
+  background: rgb(209, 168, 157);
   border: 0;
 }
 
 .botonIn:hover {
-  background: #d35400;
+  background: rgb(209, 168, 157);
 }
 
 @media (max-width: 990px) {
